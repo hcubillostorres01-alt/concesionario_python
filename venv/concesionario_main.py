@@ -7,7 +7,8 @@ def main():
         Automovil("Toyota", "Yaris", 40000, 5),
         Moto("Honda", "CB190R", 20000, 190),
         Automovil("Mazda", "Mazda 3", 25000, 4),
-        Moto("BMW", "G310R", 34000, 350)
+        Moto("BMW", "G310R", 34000, 350),
+        Moto("PULSAR", "NS400", 4200, 400),
     ]
 
     total_inventario = 0.0

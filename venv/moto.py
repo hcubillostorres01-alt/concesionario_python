@@ -12,7 +12,7 @@ class Moto(Vehiculo):
         tasa = 0.05 if self.__cilindraje <= 250 else 0.09
         return self.get_precio_base() * tasa
 
-    # Sobrescribimos el método ficha()
+    # Sobrescribimos el método ficha
     def ficha(self):
         return f"Moto - {super().ficha()} | Cilindraje: {self.__cilindraje}cc"
 
